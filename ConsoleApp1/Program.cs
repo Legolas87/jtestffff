@@ -10,6 +10,8 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
+      Newtonsoft.Json.ConstructorHandling g = Newtonsoft.Json.ConstructorHandling.AllowNonPublicDefaultConstructor;
+      Console.WriteLine(g.ToString());
     }
   }
 }
